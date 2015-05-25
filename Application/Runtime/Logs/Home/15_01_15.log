@@ -1,0 +1,46 @@
+[ 2015-01-15T07:04:09+08:00 ] 202.202.32.38 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001362s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.005970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-01-15T11:08:15+08:00 ] 202.202.32.38 /newface/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001398s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.003589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+

@@ -1,0 +1,50 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">用户编辑</div>
+	<div class="u_detile_box">
+		<form action="__APP__/Admin/User/doChangeDetile" method="post">
+			<volist name="detile" id="vo">
+			<div>
+				<label>id</label>
+				<div>
+					<input type="text" name="id" value="<{$vo.stu_id}>" class="a_input">
+				</div>
+			</div>
+			<input type="text" name="oldid" value="<{$vo.stu_id}>" hidden="true">
+			<div>
+				<label>姓名</label>
+				<div>
+					<input type="text" name="username" value="<{$vo.stu_name}>"
+						class="a_input">
+				</div>
+			</div>
+			<div>
+				<label>性别</label>
+				<div><input type="text" name="gender" value="<{$vo.stu_gender}>"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>身份证</label>
+				<div><input type="text" name="idcard" value="<{$vo.stu_idcard}>"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>学号</label>
+				<div><input type="text" name="xuehao" value="<{$vo.stu_xuehao}>"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>学院</label>
+				<div><input type="text" name="academy" value="<{$vo.stu_academy}>"
+					class="a_input"></div>
+			</div>
+			<div class="button_group">
+				<input type="submit" value="确定" class="button_s">
+				<button class="button_b"
+					onclick="javascript:history.back(-1);return false;">返回</button>
+			</div>
+			</volist>
+		</form>
+	</div>
+</block>

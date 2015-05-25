@@ -1,0 +1,32 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">微信图片管理(<{$count}>)</div>
+</div>
+<div class="u_m_table">
+	<table>
+		<thead>
+			<tr>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>图片名</th>
+				<th class="thopt">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="userlist" id="vo">
+			<tr>
+				<td><{$vo.wait_id}></td>
+				<td><{$vo.stu_name}></td>
+				<td><{$vo.wait_image_name}></td>
+				<td>
+					<a href="__CONTROLLER__/cutThumb?wid=<{$vo.wait_id}>&id=<{$vo.wait_uid}>">上传照片</a>
+					<a href="__CONTROLLER__/deleteImg?wid=<{$vo.wait_id}>&id=<{$vo.wait_uid}>">删除照片</a>
+				</td>
+			</tr>
+			</volist>
+		</tbody>
+	</table>
+	<div><{$page}></div>
+</div>
+</block>

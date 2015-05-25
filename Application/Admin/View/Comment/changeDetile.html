@@ -1,0 +1,52 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">评论编辑</div>
+	<div class="u_detile_box">
+		<form action="__APP__/Admin/Comment/doChangeDetile" method="post">
+			<volist name="detile" id="vo">
+			<div>
+				<label>id</label>
+				<div><input type="text" name="id" value="<{$vo.com_id}>" class="a_input"></div>
+			</div>
+			<input type="text" name="oldid" value="<{$vo.com_id}>" hidden="true">
+			<div>
+				<label>评论人id</label>
+				<div><input type="text" name="uid" value="<{$vo.com_uid}>" class="a_input">
+				(<{$vo.stu_name}>)</div>
+			</div>
+			<div>
+				<label>评论的图片id</label>
+				<div><input type="text" name="pid" value="<{$vo.com_pid}>" class="a_input"></div>
+			</div>
+			<div>
+				<label>评论内容</label>
+				<div><textarea name="content" style="height:200px;"><{$vo.com_content}></textarea></div>
+			</div>
+			<div>
+				<label>评论时间</label>
+				<div><input type="text" name="addtime" value="<{$vo.com_addtime}>" class="a_input"></div>
+			</div>
+			<div class="button_group">
+				<input type="submit" value="确定" class="button_s">
+				<button class="button_b"
+					onclick="javascript:history.back(-1);return false;">返回</button>
+			</div>
+			</volist>
+		</form>
+	</div>
+	<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					resizeType : 1,
+					allowPreviewEmoticons : false,
+					allowImageUpload : false,
+					items : [
+						'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+						'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+						'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+				});
+			});
+		</script>
+</block>

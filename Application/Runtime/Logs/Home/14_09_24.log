@@ -1,0 +1,1399 @@
+[ 2014-09-24T13:52:52+08:00 ] 127.0.0.1 /newface/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001153s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.002414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2014-09-24T13:53:13+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001149s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-09-24T13:53:13+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001195s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.001319s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-09-24T13:53:15+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001129s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-09-24T13:53:16+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001023s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-09-24T13:53:16+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001157s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2014-09-24T13:53:16+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001163s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2014-09-24T13:53:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001151s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-09-24T13:53:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001089s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T13:53:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001140s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-09-24T13:53:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001165s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-09-24T13:53:32+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001146s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 11,11   [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T13:53:37+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001158s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 22,11   [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2014-09-24T13:53:42+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001143s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 33,11   [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2014-09-24T13:53:46+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001133s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 44,11   [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-09-24T13:53:49+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001116s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 55,11   [ RunTime:0.001813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-09-24T13:53:51+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001165s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 66,11   [ RunTime:0.001824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2014-09-24T13:53:52+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001116s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 77,11   [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-09-24T13:53:54+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001128s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 88,11   [ RunTime:0.001824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-09-24T13:53:56+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001139s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000090s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 99,11   [ RunTime:0.001858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-09-24T13:53:58+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001316s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 110,11   [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2014-09-24T13:54:09+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001146s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 121,11   [ RunTime:0.001893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-09-24T13:54:21+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001174s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 132,11   [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-09-24T13:54:22+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001180s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 143,11   [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-09-24T13:54:24+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001087s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 154,11   [ RunTime:0.001823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-09-24T13:54:25+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001124s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 165,11   [ RunTime:0.001821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-09-24T13:54:26+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001132s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 176,11   [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-09-24T13:54:28+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001106s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 187,11   [ RunTime:0.003863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-09-24T14:39:44+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001156s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2014-09-24T14:40:10+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000863s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 11,11   [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-09-24T14:40:20+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001303s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 22,11   [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2014-09-24T14:40:24+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001138s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 33,11   [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-09-24T14:40:28+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001165s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 44,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-09-24T14:40:31+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001030s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000099s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 55,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2014-09-24T14:40:33+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001145s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 66,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-09-24T14:40:35+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001165s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 77,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-09-24T14:40:37+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001136s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 88,11   [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T14:40:39+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001180s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 99,11   [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-09-24T14:40:41+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000913s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 110,11   [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-09-24T14:40:42+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001102s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 121,11   [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2014-09-24T14:40:43+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001123s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 132,11   [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2014-09-24T14:40:45+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000960s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 143,11   [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2014-09-24T14:40:46+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001168s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 154,11   [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T14:40:47+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000957s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 165,11   [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-09-24T14:40:48+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001180s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 176,11   [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-09-24T14:40:51+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001133s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 187,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-09-24T15:20:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001187s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-09-24T18:44:29+08:00 ] 127.0.0.1 /newface/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000868s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.002341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2014-09-24T18:45:16+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001062s ]
+SQL: SELECT `stu_id`,`img_name`,`stu_praise_count` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_id=1721 ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000573s ]
+SQL: SELECT * FROM `comment` WHERE `com_pid` = 1721  [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000639s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '36114' ) LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '4424' ) LIMIT 1   [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2014-09-24T18:45:26+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000999s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.001266s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 11,11   [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-09-24T18:45:31+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001237s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 22,11   [ RunTime:0.001801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2014-09-24T18:45:36+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001271s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 33,11   [ RunTime:0.001873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2014-09-24T18:45:42+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001166s ]
+SQL: SELECT `stu_id`,`img_name`,`stu_praise_count` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_id=4003 ) LIMIT 1   [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `comment` WHERE `com_pid` = 4003  [ RunTime:0.000464s ]
+NOTIC: [2] Invalid argument supplied for foreach() /website/newface/Application/Home/Controller/IndexController.class.php 第 141 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2014-09-24T18:45:50+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001070s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000681s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 44,11   [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-09-24T18:45:55+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001136s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000686s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 55,11   [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-09-24T18:45:58+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001069s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 66,11   [ RunTime:0.002005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-09-24T18:45:59+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000930s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 77,11   [ RunTime:0.001680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-09-24T18:46:00+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001981s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 88,11   [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2014-09-24T18:46:01+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001072s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 99,11   [ RunTime:0.002099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2014-09-24T18:47:08+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001140s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 110,11   [ RunTime:0.001973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-09-24T18:47:13+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001161s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 121,11   [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-09-24T18:47:49+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001190s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 132,11   [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2014-09-24T18:49:28+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001142s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 143,11   [ RunTime:0.002045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2014-09-24T18:49:32+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001092s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 154,11   [ RunTime:0.001894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2014-09-24T18:49:37+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001121s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000094s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 165,11   [ RunTime:0.001857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-09-24T18:49:48+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001103s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 176,11   [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2014-09-24T18:49:54+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001137s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 187,11   [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2014-09-24T18:49:59+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001138s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-09-24T18:50:12+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001194s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000105s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 11,11   [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T18:50:17+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001140s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 22,11   [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-09-24T18:50:28+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000953s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 33,11   [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-09-24T18:50:33+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001151s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000095s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 44,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2014-09-24T18:50:38+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001104s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000091s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 55,11   [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2014-09-24T18:50:41+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001049s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 66,11   [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-09-24T18:50:44+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001159s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 77,11   [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-09-24T18:50:47+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001139s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 88,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2014-09-24T18:50:50+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000939s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 99,11   [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2014-09-24T18:50:53+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001093s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 110,11   [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2014-09-24T18:50:57+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001141s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 121,11   [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-09-24T18:51:04+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001102s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000106s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 132,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-09-24T18:51:06+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001096s ]
+NOTIC: [8] Undefined offset: 0 /website/newface/Application/Home/Controller/IndexController.class.php 第 52 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  LIMIT 1   [ RunTime:0.000108s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 143,11   [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-09-24T18:51:09+08:00 ] 127.0.0.1 /newface/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001111s ]
+SQL: SELECT * FROM `student` JOIN image ON student.stu_id=image.img_uid  ORDER BY stu_praise_count desc LIMIT 0,11   [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2014-09-24T18:51:13+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001134s ]
+SQL: SELECT `stu_id`,`img_name`,`stu_praise_count` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_id=1554 ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `comment` WHERE `com_pid` = 1554  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000642s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1507' ) LIMIT 1   [ RunTime:0.000165s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '3600' ) LIMIT 1   [ RunTime:0.000141s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1227' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2538' ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '3865' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '194' ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2761' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2761' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '4424' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1413' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1413' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2636' ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2636' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2636' ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '2636' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '31853' ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '4444' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1649' ) LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '3577' ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '39929' ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '39929' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '39929' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '39929' ) LIMIT 1   [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2014-09-24T18:51:22+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001107s ]
+SQL: SELECT `stu_id`,`img_name`,`stu_praise_count` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_id=1067 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `comment` WHERE `com_pid` = 1067  [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.000632s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '32427' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SELECT `stu_name` FROM `student` WHERE ( stu_id = '1067' ) LIMIT 1   [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-09-24T19:01:05+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_academy='通信与信息工程学院' ) LIMIT 1   [ RunTime:0.001489s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_academy='通信与信息工程学院' ) LIMIT 0,11   [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-09-24T19:01:06+08:00 ] 127.0.0.1 /newface/index.php/Home/Index/academy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.001136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_academy='计算机科学与技术学院' ) LIMIT 1   [ RunTime:0.001467s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`img_name` FROM `student` JOIN image ON student.stu_id=image.img_uid  WHERE ( stu_academy='计算机科学与技术学院' ) LIMIT 0,11   [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+

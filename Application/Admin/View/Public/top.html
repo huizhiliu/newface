@@ -1,0 +1,33 @@
+<div class="top-div">
+	<span class="top-div-title">
+		RedRock
+	</span>
+	<div class="top-div-select">
+		<ul class="nav nav-pills top-font" role="tablist">
+			<block name="index">
+			 <!-- class="active" -->
+			<li role="presentation" id="homeli" class="<{$home}>">
+				<a href="__APP__/Admin/Index/index" onclick="selectHome()">主页</a>
+			</li>
+			</block>
+			<block name="user">
+			<li role="presentation" id="userli" class="<{$user}>">
+				<a href="__APP__/Admin/User/index" onclick="selectUser()">用户管理</a>
+			</li>
+			</block>
+			<block name="comment">
+			<li role="presentation" id="comli" class="<{$comment}>">
+				<a href="__APP__/Admin/Comment/index" onclick="selectCom()">评论管理</a>
+			</li>
+			</block>
+			<block name="system">
+			<li role="presentation"  class="<{$wechat}>">
+				<a href="__APP__/Admin/Wechat/index">微信图片</a>
+			</li>
+			</block>
+		</ul>
+	</div>
+	<div class="exit">
+		<a href="__APP__/Admin/Login/exitLogin">退出</a>
+	</div>
+</div>

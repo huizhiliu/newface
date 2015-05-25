@@ -1,0 +1,433 @@
+.wrapper {
+    max-width: 720px;
+    background: url("../images/bgc.png") 50% 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.top_bg{
+    width: 100%;
+    float: left;
+}
+.top_bg img{
+    width: 100%;
+}
+.return_top{
+    width: 84px;
+    height: 84px;
+    background: url("../images/return_top.png") no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 76%;
+    right: 0;
+}
+.return{
+    background: #64c643;
+    height: 60px;
+    max-width: 720px;
+    float: left;
+    display: block;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+}
+.return h3{
+    line-height: 60px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+    width: 720px;
+    padding-left: 25px;
+    background: url("../images/f") no-repeat 0 50%;
+    margin-left: 2%;
+}
+.rule{
+    width: 90%;
+    margin: 340px auto 0;
+    background: #c7e26b;
+    overflow: hidden;
+}
+.rule h1{
+    line-height: 2em;
+    text-align:  center;
+    font-size: 2.8em;
+    color: #996c33;
+}
+.rule p{
+    margin-left: 20px;
+    float: left;
+    font-size: 2.4em;
+    color: #996c33;
+    line-height: 2em;
+}
+.classify{
+    width: 70%;
+    margin: 25px auto 25px;
+    overflow: hidden;
+}
+.classify_click{
+    font-size: 32px;
+    font-weight: bold;
+    color: #9b7601;
+    padding: 20px 50px;
+    background-size: 100%!important;
+}
+.classify_select{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    background: #fff;
+    display: none;
+    opacity: 0;
+}
+.classify_select ul{
+    height: 406px;
+    overflow: auto;
+    width: 96%;
+    text-align: center;
+    margin: 0 auto;
+}
+.classify_select ul::-webkit-scrollbar {
+    width:10px;
+    background: #fff;
+}
+.classify_select ul::-webkit-scrollbar-button{
+    display: none;
+}
+.classify_select ul::-webkit-scrollbar-track{
+    background: #d9d9d9;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.classify_select ul::-webkit-scrollbar-thumb{
+    background:#64c643;
+    border-radius:7px;
+}
+.classify_select li{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: #d0cfcf;
+    background: #fff;
+    border-bottom: 1px solid #d9d9d9;
+}
+.classify_click1{
+    background: url("../images/click1_after.png") no-repeat;
+    float: left;
+    color: #f9fb32;
+}
+.classify_click2{
+    background: url("../images/click2.png") no-repeat;
+    float: right;
+}
+.face ul{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.face li{
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.face_wrapper{
+    margin: 0 auto;
+    width: 90%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.face_pic{
+    width: 95%;
+    height: 209px;
+    overflow: hidden;
+    margin: 5px auto 5px;
+}
+.face_pic img{
+    width: 100%;
+    height: 100%;
+}
+.face_info{
+    width: 153px;
+    height: 51px;
+    border-radius: 5px;
+    border: 1px;
+    background: #fbac2e;
+    font-size: 25px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.face_info_sp{
+    display: none;
+}
+.face_heart {
+    position: absolute;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+.face_heart img{
+    position: relative!important;
+/*    top: 3px!important;*/
+    display: block;
+    float: left;
+    width: 30px!important;
+    height: 25px!important;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+}
+.face_heart span{
+    font-size: 25px;
+    color: #8d9f58;
+    /*margin-left: 2px;*/
+}
+.load{
+    background: #cee65f;
+    width: 100%;
+    float: left;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.load h6{
+    line-height: 30px;
+    color: #707070;
+    font-size: 26px;
+    font-weight: normal;
+    width: 100%;
+    display: block;
+}
+
+
+
+.login_bar{
+    width: 464px;
+    margin-top: 0px;
+    display: block;
+    background: #ffffff;
+    position: relative;
+    display: none;
+    z-index: 10000;
+    border-radius: 4px;
+    box-shadow: 0 0 40px #626060;
+    margin-left: -232px; 
+    position: relative;
+
+}
+.login_bar .input_wrap{
+    padding-left: 108px;
+}
+.login_bar #login{
+    background: #B3D465;
+    border: none;
+    outline: none;
+    width: 191px;
+    height: 32px;
+    padding: 0;
+    /*margin-left: 134px;*/
+    color: white;
+    border-bottom: 3px solid #80C269;
+    box-shadow: 1px 1px 1px #A9A3A3;
+    cursor: pointer;
+    margin: 0 auto;
+}
+    
+.login_bar #login.loading{
+  background: url('./style_img/more_load.gif');
+width: 100px;
+margin-left: 170px;
+border-bottom: none;
+height: 23px;
+box-shadow: none;
+}
+
+.form_wrapper {
+    position: fixed;
+left: 50%;
+display: none;
+width: 80%;
+height: 215px;
+top: 10%;
+/* padding: 20px; */
+padding-top: 30px;
+border-radius: 2px;
+margin-left: -40%;
+/* margin-top: 25%; */
+/* max-width: 660px; */
+}
+.form_wrapper .input_wrap {
+        height: 31px;
+        margin-bottom: 20px; }
+.form_wrapper input {
+        width: 205px;
+        line-height: 22px;
+        background-color: white;
+        padding-left: 35px;
+        outline: none;
+        float: left; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0 0 6px #EDEDED inset;
+}
+.form_wrapper p {
+        margin-left: 45px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 16px; }
+.form_wrapper .stu_number {
+        color: #000;
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat #FFF 10px -65px; 
+        border: 1px solid #CCC;
+}
+
+.form_wrapper .stu_id {
+        color: #000;
+        background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat #FFF 10px -119px; 
+        font-size: 14px;
+        border: 1px solid #CCC;
+}
+.form_wrapper h6{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    position: relative;
+    left: 25px;
+    z-index: 10;
+}
+.form_wrapper span {
+        background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat 0px -182px;
+        float: right;
+        height: 20px;
+        line-height: 20px;
+        padding-left: 30px;
+        color: #000;
+        font-size: 12px;
+        margin-top: 5px; 
+        padding-right: 30px;
+}
+.form_wrapper #login_sub {
+        width: 110px;
+        height: 50px;
+        outline: none;
+        border: none;
+        background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat left -48px;
+        color: white;
+        font-size: 16px;
+        padding: 0px;
+        margin-left: 65px;
+        margin-top: 20px;
+        text-align: center; 
+        box-shadow: none;
+        padding-bottom: 7px;
+        cursor: pointer
+}
+.form_wrapper input{
+    position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+.form_wrapper #login_sub:hover{
+    background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat left top;
+}
+.module_wrap .form_wrapper .input_wrap span{
+  color: #FFF;
+}
+
+.exit{
+    width: 31px;
+    height: 18px;
+    background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat left -585px;
+    float: right;
+    margin: 5px;
+    margin-right: 25px; 
+    position: relative;
+    z-index: 11;
+    left: 32px;
+    bottom: 27px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+.exit:hover{
+    background: url("http://hongyan.cqupt.edu.cn/welcome/2014/Public/home/style/style_img/content_icon.png") no-repeat left -558px;
+}
+.wrapper{
+    position: relative;
+    padding-bottom: 50px;
+    overflow: inherit;
+}
+.login_btn{
+    display: inline-block;
+    width: 39px;
+    height: 23px;
+    position: absolute;
+    right: 3%;
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: 0 0 10px #CCC;
+    letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+    padding: 7px 24px;
+    background: #D4AD36;
+    border-radius: 3px;
+    padding-left: 28px;
+    padding-top: 3px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+    white-space: nowrap;
+
+ }
+
+.logout_btn{
+    display: inline-block;
+    width: 39px;
+    height: 23px;
+    position: absolute;
+    right: 3%;
+    color: #FFF;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: 0 0 10px #CCC;
+    letter-spacing: 4px;
+    -webkit-font-smoothing: antialiased;
+    padding: 7px 24px;
+    background: #D4AD36;
+    border-radius: 3px;
+    padding-left: 28px;
+    padding-top: 3px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+.coverflow{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.face_info{
+    float: right!important;
+    margin-right: 8px!important;
+    margin-bottom: 6px!important;
+}
+

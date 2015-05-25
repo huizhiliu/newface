@@ -1,0 +1,67 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">用户管理(<{$count}>) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="__CONTROLLER__/addUser">添加用户</a></div>
+	<div></div>
+	<div class="u_m_search">
+		<form action="__APP__/Admin/User/findPeople" method="get">
+			<div class="btn-group left-select">
+				<select class="btn btn-default dropdown-toggle"
+					data-toggle="dropdown" name="what">
+					<option value="1">学号</option>
+					<option value="2">姓名</option>
+				</select>
+			</div>
+			<div class="row right-submit">
+				<div class="col-lg-6">
+					<div class="input-group">
+						<input type="text" class="form-control" name="word">
+						<span class="input-group-btn">
+							<input class="btn btn-default" type="submit" value="查找">
+						</span>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="u_m_table">
+	<table>
+		<thead>
+			<tr>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>身份证</th>
+				<th>学号</th>
+				<th class="thsca">学院</th>
+				<th class="thimg">图片</th>
+				<th>赞</th>
+				<th class="thopt">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="userlist" id="vo">
+			<tr>
+				<td><{$vo.stu_id}></td>
+				<td><{$vo.stu_name}></td>
+				<td><{$vo.stu_gender}></td>
+				<td><{$vo.stu_idcard}></td>
+				<td><{$vo.stu_xuehao}></td>
+				<td><{$vo.stu_academy}></td>
+				<td><{$vo.stu_img}></td>
+				<td><{$vo.stu_praise_count}></td>
+				<td>
+					<a href="__APP__/Admin/User/changeDetile?id=<{$vo.stu_id}>">编辑</a>
+					<a href="__APP__/Admin/User/deleteUser?id=<{$vo.stu_id}>">删除</a>
+					<a href="__APP__/Admin/User/uploadImg?id=<{$vo.stu_id}>">上传照片</a>
+					<a href="__APP__/Admin/User/deleteImg?id=<{$vo.stu_id}>">删除照片</a>
+				</td>
+			</tr>
+			</volist>
+		</tbody>
+	</table>
+	<div><{$page}></div>
+	
+</div>
+</block>

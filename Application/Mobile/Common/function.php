@@ -1,0 +1,16 @@
+<?php
+/*
+ *ºóÌ¨¹«¹²º¯Êý ÅÐ¶ÏÊÇ·ñµÇÂ¼
+ */
+ 
+ 
+//ÅÐ¶ÏÊÇ·ñµÇÂ½
+
+function isLogin(){
+	$user = session('uid');
+	if(empty($user)){
+		return 0;
+	}else{
+		return 1;
+	}
+}

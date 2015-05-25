@@ -1,0 +1,67 @@
+<extend name="Public:index" />
+<block name="allhead">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<load href="__PUBLIC__/admin/style/bootstrap.css"/>
+<load href="__PUBLIC__/admin/js/jquery1.9.1.min.js" />
+<load href="__PUBLIC__/admin/js/bootstrap.min.js" />
+<load href="__PUBLIC__/admin/style/admin.css"/>
+<load href="__PUBLIC__/admin/style/jquery.Jcrop.css" />
+<load href="__PUBLIC__/admin/js/jquery.Jcrop.js" />
+<load href="__PUBLIC__/admin/js/admin.js" />
+<style type="text/css">
+	.right-div{
+	width:100%;
+	}
+</style>
+</head>
+</block>
+<block name="left_leader">
+</block>
+<block name="right_detile">
+<div class="user_manage">
+	
+	<div class="u_m_title">手动裁剪式上传图片</div>
+	<h4>原图大小裁剪……页面可能会很大……不过照样可以裁剪 请见谅</h4>
+	<div class="u_detile_box uploadbox">
+		<form action="__CONTROLLER__/doUploadThumbImg" enctype="multipart/form-data" method="post">
+			<volist name="list" id="vo">
+			<input type="text" name="id" value="<{$vo.stu_id}>" hidden="true">
+			<input type="text" name="xuehao" value="<{$vo.stu_xuehao}>" hidden="true">
+			<div>您所要上传的人是:<{$vo.stu_name}></div><br/>
+			<div>他的性别是:<{$vo.stu_gender}></div><br/>
+			<div>他的学号是:<{$vo.stu_xuehao}></div><br/>
+			<div>他的学院是:<{$vo.stu_academy}></div><br/>
+			</volist>
+			<div>上传图片：<input type="file" name="photo"/></div>
+			<div class="button_group">
+				<input type="submit" value="确定" class="button_s" name="upload">
+				<button class="button_b" onclick="javascript:history.back(-1);return false;">返回</button>
+			</div>
+		</form>
+	</div>
+	</div>
+	
+	<h1>---------------------------------我是分界线---------------------------------</h1>
+	
+	<div class="user_manage">
+	<div class="u_m_title">自动裁剪式上传图片</div>
+	<div class="u_detile_box uploadbox">
+		<form action="__CONTROLLER__/doUploadImg" enctype="multipart/form-data" method="post">
+			<volist name="list" id="vo">
+			<input type="text" name="id" value="<{$vo.stu_id}>" hidden="true">
+			<input type="text" name="xuehao" value="<{$vo.stu_xuehao}>" hidden="true">
+			<div>您所要上传的人是:<{$vo.stu_name}></div><br/>
+			<div>他的性别是:<{$vo.stu_gender}></div><br/>
+			<div>他的学号是:<{$vo.stu_xuehao}></div><br/>
+			<div>他的学院是:<{$vo.stu_academy}></div><br/>
+			</volist>
+			<div>上传图片：<input type="file" name="photo"/></div>
+			<div class="button_group">
+				<input type="submit" value="确定" class="button_s" name="upload">
+				<button class="button_b" onclick="javascript:history.back(-1);return false;">返回</button>
+			</div>
+		</form>
+	</div>
+	</div>
+</block>

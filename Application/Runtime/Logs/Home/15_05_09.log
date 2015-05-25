@@ -1,0 +1,27 @@
+[ 2015-05-09T12:39:05+08:00 ] 202.202.32.38 /newface/index.php/Home/Index/sendCom
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.001307s ]
+NOTIC: [8] Undefined index: login /website/newface/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2015-05-09T16:28:15+08:00 ] 66.249.64.163 /newface/index.php/Home/Index/check_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.019060s ]
+SQL: SELECT * FROM `student` WHERE `stu_xuehao` = 0 LIMIT 1   [ RunTime:0.011360s ]
+SQL: SELECT * FROM `student` WHERE `stu_xuehao` = 0 AND `stu_idcard` = '' LIMIT 1   [ RunTime:0.008432s ]
+SQL: SELECT * FROM `student` WHERE ( stu_xuehao= ) LIMIT 1   [ RunTime:0.000120s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `student` WHERE ( stu_xuehao= ) LIMIT 1  
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+

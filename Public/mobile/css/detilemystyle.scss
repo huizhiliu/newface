@@ -1,0 +1,188 @@
+html{
+	height:100%;
+}
+body{
+	width:100%;
+	height:100%;
+}
+.wrapper{
+	width:100%;
+	height:100%;
+}
+.header{
+	h3{
+		color:white;
+		width:100%;
+		
+		height:40px;
+		line-height: 40px;
+		display: block;
+		padding-left: 7%;
+	}
+
+	width:100%;
+	height:40px;
+	background-color:#64c643;
+	position:fixed;
+	top:0;
+	// display:none;
+	z-index:2;
+
+}
+.popup{
+	width:100%;
+	height:100%;
+	.popup_face{
+		margin-top:11.15%;
+	    height:54.7%;
+	    .img_container{
+	    	width:83.3%;
+	    	margin:0  auto;
+	    	height:84.4%;
+	    	overflow:hidden;
+	    	img{
+	    		width:100%;
+	    		height:100%;
+	    	}
+	    }
+	    .detail_wrapper{
+	    	// width:34.94%;
+
+	    	// height:7.925%;
+	    	float:right;
+
+	    	padding-top:2px;
+	    	span{
+	    		// padding-left:23.9%;
+                font-size: "Microsoft Yahei";
+                color:#707070;
+                font-size: 16px;
+                display:inline-block;
+                
+              
+
+             
+	    	}
+	    	img{
+	    		width:12%;
+	    		height:12%;
+	    	}
+	    	p{
+	    		display:inline;
+	    		height:74%;
+	    		line-height: 74%;
+	    	}
+	    	.popup_zan{
+	    	
+	        }
+	        .popup_review{
+	        
+	        }
+	    }
+	    
+	}
+
+
+.popup_list::-webkit-scrollbar {
+     width:6px;
+}
+.popup_list::-webkit-scrollbar-button    {
+    display: none;
+}
+.popup_list::-webkit-scrollbar-track     {
+    background: #fff;
+    border: 1px solid #dceae9;
+    border-radius: 6px;
+}
+.popup_list::-webkit-scrollbar-thumb{
+    background:#2fa7d4;
+    border-radius:7px;
+}
+
+
+	.popup_list{
+		 overflow: auto;
+        
+        overflow-x: hidden;
+       
+		height:31.2%;
+
+		.review_list{
+			width:100%;
+			// height:33%;
+			 overflow:hidden;
+			border-top:1px solid #d9d9d9;
+            border-bottom:1px solid #d9d9d9;
+		}
+		.speaker_wrapper{
+			display: inline-block;
+			width:80%;
+            float:right;
+            margin-top: 2%;
+		}
+		img{
+			width:10%;
+            margin-left:3.889%;
+            margin-top:2%;
+            float:left;
+		}
+		span{
+			  font-size: "Microsoft Yahei";
+              color:#707070;
+              font-size: 16px;
+		}
+		.speaker{
+			display:inline-block;
+		}
+		p{
+			//display: inline-block;
+			 font-size: "Microsoft Yahei";
+              color:#707070;
+              font-size: 16px;
+		}
+	    .speak_time{
+	    	float:right;
+	    	margin-right:3%;
+	    }
+	}
+	
+	.popup_box{
+		
+        height: 6%;
+        padding-top:5%;
+        .text_wrapper{
+        	width:80%;
+        	margin: 0 auto;
+        	border:1px solid #d9d9d9;
+        	height:36px;
+        	margin-top: 0%;
+        	border-radius:5px;
+        	padding:4px;
+
+        }
+        textarea{
+        	width:74%;
+        	margin:0;
+        	padding:5px;
+        	height:30px;
+        	line-height: 30px;
+        	float:left;
+        	outline:none;
+        	border:none;
+        	resize: none;
+        }
+        .button{
+        	float:right;
+        	border-radius: 5px;
+        	background-color:#c9c9c9;
+        	display:inline-block;
+        	height:30px;
+        	line-height: 30px;
+        	padding-left:4%;
+        	width:16%;
+        	color:white;
+        	font-size:97%;
+        }
+	}
+	
+}

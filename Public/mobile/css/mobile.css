@@ -1,0 +1,157 @@
+@media only screen and (max-width: 719px){
+    .return{
+        height: 50px;
+    }
+    .return h3{
+        line-height: 50px;
+    }
+    .rule{
+        margin: 240px auto 0;
+    }
+    .classify{
+        width: 85%;
+    }
+    .face_info{
+        font-size: 1.8em;
+        height: 40px;
+        width: 120px;
+        margin-left: 5px;
+    }
+    .face_heart span{
+        font-size: 18px;
+    }
+    .face_heart img{
+        width: 35px;
+        height: 27px;
+    }
+    .return_top{
+        width: 74px;
+        height: 74px;
+    }
+    .face_pic{
+        height: 169px;
+    }
+}
+@media only screen and (max-width: 599px){
+    .return{
+        height: 45px;
+    }
+    .return h3{
+        line-height: 45px;
+    }
+    .classify{
+        width: 82%;
+    }
+    .classify_click{
+        font-size: 2.5em;
+        padding: 15px 40px;
+    }
+    .classify_select li{
+        font-size: 25px;
+        line-height: 55px;
+    }
+    .classify_select ul{
+        height: 283px;
+    }
+    .face_info{
+        width: 90px;
+    }
+    .return_top{
+        width: 64px;
+        height: 64px;
+    }
+    .face_pic{
+        height: 169px;
+    }
+    .face_pic{
+        height: 134px;
+    }
+}
+@media only screen and (max-width: 479px){
+    .return{
+        height: 35px;
+    }
+    .return h3{
+        line-height: 35px;
+        font-size: 22px;
+    }
+    .rule{
+        margin: 120px auto 0;
+    }
+    .rule p{
+        font-size: 1.8em;
+    }
+    .classify_click{
+        font-size: 2em;
+        padding: 7px 20px;
+    }
+    .classify_select li{
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .classify_select ul{
+        height: 225px;
+    }
+    .classify_select{
+        top: 35%;
+    }
+    .face_info{
+        font-size: 1.4em;
+        height: 30px;
+        width: 70px;
+        margin-left: 5px;
+    }
+    .face_heart{
+        margin-top: 5px;
+    }
+    .face_heart span{
+        font-size: 1.4em;
+    }
+    .face_heart img{
+        width: 25px;
+        height: 19px;
+    }
+    .return_top{
+        width: 54px;
+        height: 54px;
+    }
+    .face_pic{
+        height: 99px;
+    }
+}
+@media only screen and (max-width: 359px){
+    .face_info{
+        width: 50px;
+    	font-size: 1.2em
+    }
+    .face_heart{
+        margin-top: 5px;
+    }
+    .face_heart span{
+        font-size: 1.4em;
+    }
+    .classify_click{
+        font-size: 1.5em;
+        padding: 7px 20px;
+    }
+    .classify_select{
+        top: 35%;
+    }
+    .return_top{
+        width: 44px;
+        height: 44px;
+    }
+    .face_pic{
+        height: 93px;
+    }
+}
+@media screen  and (orientation:landscape) and (max-width: 1025px){
+    .classify_select ul{
+        height: 240px;
+    }
+}
+@media screen  and (orientation:landscape) and (max-width: 599px){
+    .classify_select ul{
+        height: 170px;
+    }
+}

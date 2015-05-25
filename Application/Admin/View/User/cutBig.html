@@ -1,0 +1,142 @@
+<extend name="Public:index" />
+<block name="allhead">
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<load href="__PUBLIC__/admin/style/bootstrap.css"/>
+<load href="__PUBLIC__/admin/js/jquery1.9.1.min.js" />
+<load href="__PUBLIC__/admin/js/bootstrap.min.js" />
+<load href="__PUBLIC__/admin/style/admin.css"/>
+<load href="__PUBLIC__/admin/style/jquery.Jcrop.css" />
+<load href="__PUBLIC__/admin/js/jquery.Jcrop.js" />
+<load href="__PUBLIC__/admin/js/admin.js" />
+<style type="text/css">
+
+/* Apply these styles only when #preview-pane has
+   been placed within the Jcrop widget */
+.jcrop-holder #preview-pane {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 150px;
+  left: 800px;
+  padding: 6px;
+  border: 1px rgba(0,0,0,.4) solid;
+  background-color: white;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+
+  -webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* The Javascript code will set the aspect ratio of the crop
+   area based on the size of the thumbnail preview,
+   specified here */
+#preview-pane .preview-container {
+  width: 438px;
+  height: 369px;
+  overflow: hidden;
+}
+
+	.right-div{
+	width:100%;
+	}
+</style>
+</head>
+</block>
+<block name="left_leader">
+</block>
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">裁剪大图</div>
+	<div id="preview-pane">
+	    <div class="preview-container">
+			<img src="__PUBLIC__/temporary/<{$imgname}>" alt="Preview" height="369px" width="438px" />
+	    </div>
+	</div>
+	<div class="u_detile_box uploadbox">
+		<div class="imgbox" id="preview">
+			<img id="target" src="__PUBLIC__/temporary/<{$imgname}>"/>
+		</div>
+			<form action="__CONTROLLER__/doCutBig" method="post">
+				<input type="hidden" id="x" name="x" />
+				<input type="hidden" id="y" name="y" />
+				<input type="hidden" id="w" name="w" />
+				<input type="hidden" id="h" name="h" />
+				<div class="button_group">
+					<input type="submit" value="确定" class="button_s" name="upload">
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	
+	
+<script type="text/javascript">
+jQuery(function($){
+
+    // Create variables (in this scope) to hold the API and image size
+ 	
+    var jcrop_api,
+    	boundx,
+        boundy,
+
+        // Grab some information about the preview pane
+        $preview = $('#preview-pane'),
+        $pcnt = $('#preview-pane .preview-container'),
+        $pimg = $('#preview-pane .preview-container img'),
+
+        xsize = $pcnt.width(),
+        ysize = $pcnt.height();
+    
+    console.log('init',[xsize,ysize]);
+	
+    $('#target').Jcrop({
+      onChange: updatePreview,
+      onSelect: updatePreview,
+	  onSelect: updateCoords,
+      aspectRatio: xsize / ysize
+    },function(){
+      // Use the API to get the real image size
+      var bounds = this.getBounds();
+      boundx = bounds[0];
+      boundy = bounds[1];
+      // Store the API in the jcrop_api variable
+      jcrop_api = this;
+      // Move the preview into the jcrop container for css positioning
+      $preview.appendTo(jcrop_api.ui.holder);
+    });
+
+    function updatePreview(c)
+    {
+      if (parseInt(c.w) > 0)
+      {
+        var rx = xsize / c.w;
+        var ry = ysize / c.h;
+
+        $pimg.css({
+          width: Math.round(rx * boundx) + 'px',
+          height: Math.round(ry * boundy) + 'px',
+          marginLeft: '-' + Math.round(rx * c.x) + 'px',
+          marginTop: '-' + Math.round(ry * c.y) + 'px'
+        });
+      }
+    };
+	
+	function updateCoords(c)
+	{
+		$('#x').val(c.x);
+		$('#y').val(c.y);
+		$('#w').val(c.w);
+		$('#h').val(c.h);
+	};
+
+  }
+  );
+  
+</script>
+
+</block>

@@ -1,0 +1,60 @@
+[ 2014-08-31T10:19:43+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/check_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.003979s ]
+SQL: SELECT * FROM `student` WHERE `stu_xuehao` = 0 LIMIT 1   [ RunTime:0.140582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2014-08-31T10:19:43+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/check_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.003758s ]
+SQL: SELECT * FROM `student` WHERE `stu_xuehao` = 0 LIMIT 1   [ RunTime:0.003294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2014-08-31T13:13:14+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/popface
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.165229s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`stu_img` FROM `student` LIMIT 0,11   [ RunTime:0.076795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2014-08-31T13:13:14+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/popface
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.035038s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`stu_img` FROM `student` LIMIT 0,11   [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2014-08-31T13:13:17+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/popface
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.201484s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`stu_img` FROM `student` LIMIT 11,11   [ RunTime:0.020443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2014-08-31T13:13:21+08:00 ] 127.0.0.1 /NewFace/index.php/Home/Index/popface
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.003277s ]
+SQL: SELECT `stu_id`,`stu_praise_count`,`stu_img` FROM `student` LIMIT 22,11   [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+

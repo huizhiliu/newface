@@ -1,0 +1,166 @@
+html {
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.wrapper {
+  width: 100%;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #64c643;
+  position: fixed;
+  top: 0;
+  text-align:center;
+  font-weight: "lighter";
+  font-size: 20px;
+  z-index: 2; }
+  .header h4 {
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    /*padding-left: 7%;*/
+
+     }
+
+.popup {
+  width: 100%;
+  height: 100%; }
+  .popup .popup_face {
+    margin-top: 60px;
+       }
+    .popup .popup_face .img_container {
+      width: 83.3%;
+      text-align: center;
+      margin: 0  auto;
+      /*height: 84.4%;*/
+      overflow: hidden; }
+      .popup .popup_face .img_container img {
+        width: 100%;
+        max-width: 640px;
+        border: 2px solid #E9E9E9;
+        /*height: 100%; */
+      }
+    .popup .popup_face .detail_wrapper {
+      float: right;
+      padding-top: 20px; }
+      .popup .popup_face .detail_wrapper span {
+        font-size: "Microsoft Yahei";
+        color: #707070;
+        font-size: 16px;
+        display: inline-block; }
+      .popup .popup_face .detail_wrapper img {
+        width: 26px;
+       height: 26px; }
+      .popup .popup_face .detail_wrapper p {
+        display: inline;
+        height: 74%;
+        line-height: 74%; }
+  .popup .popup_list::-webkit-scrollbar {
+    width: 6px; }
+  .popup .popup_list::-webkit-scrollbar-button {
+    display: none; }
+  .popup .popup_list::-webkit-scrollbar-track {
+    background: #fff;
+    border: 1px solid #dceae9;
+    border-radius: 6px; }
+  .popup .popup_list::-webkit-scrollbar-thumb {
+    background: #2fa7d4;
+    border-radius: 7px; }
+  .popup .popup_list {
+    overflow: auto;
+    overflow-x: hidden;
+    height: 31.2%; }
+    .popup .popup_list .review_list {
+      width: 100%;
+      overflow: hidden;
+      border-top: 1px solid #d9d9d9;
+      border-bottom: 1px solid #d9d9d9; }
+    .popup .popup_list .speaker_wrapper {
+      display: inline-block;
+      width: 80%;
+      float: right;
+      margin-top: 2%; }
+    .popup .popup_list img {
+      width: 10%;
+      margin-bottom: 2%;
+      margin-left: 3.889%;
+      margin-top: 2%;
+      float: left; }
+    .popup .popup_list span {
+      font-size: "Microsoft Yahei";
+      color: #707070;
+      font-size: 16px; }
+    .popup .popup_list .speaker {
+      display: inline-block; }
+    .popup .popup_list p {
+      font-size: "Microsoft Yahei";
+      color: #707070;
+      font-size: 16px; }
+    .popup .popup_list .speak_time {
+      float: right;
+      margin-right: 3%; }
+  .popup .popup_box {
+    background-color: #FFF;
+    box-shadow: 0 0 8px #CCC;
+    position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding-bottom: 10px;
+    padding-top: 15px; }
+    .popup .popup_box .text_wrapper {
+      width: 80%;
+      margin: 0 auto;
+      border: 1px solid #d9d9d9;
+      height: 36px;
+      margin-top: 0%;
+      border-radius: 5px;
+      padding: 4px; }
+    .popup .popup_box textarea {
+      font-size: 1.2rem;
+      width: 74%;
+      margin: 0;
+      padding: 5px;
+      height: 30px;
+      line-height: 30px;
+      float: left;
+      outline: none;
+      border: none;
+      resize: none; }
+
+
+    .popup .popup_box .button {
+      float: right;
+border-radius: 5px;
+background-color: #FBAC2E;
+display: inline-block;
+height: 30px;
+line-height: 30px;
+/* padding-left: 4%; */
+width: 16%;
+max-width: 100px;
+color: #FFF;
+font-size: 97%;
+text-align: center;
+margin-top: 2px;
+margin-right: 3px;
+}
+
+
+.popup_list{
+  margin-top: 50px;
+}
+
+.no-one-comment{
+  text-align: center;
+color: #B6B6B6;
+font-size: 1.1rem;
+}

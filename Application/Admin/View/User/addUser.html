@@ -1,0 +1,41 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">用户添加</div>
+	<div class="u_detile_box">
+		<form action="__APP__/Admin/User/doAddUser" method="post">
+			<div>
+				<label>姓名</label>
+				<div>
+					<input type="text" name="username"
+						class="a_input">
+				</div>
+			</div>
+			<div>
+				<label>性别</label> 默认为男,不知道性别应该也没什么关系吧~。
+				<div><input type="text" name="gender" value="男"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>身份证后六位</label>
+				<div><input type="text" name="idcard"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>学号</label>
+				<div><input type="text" name="xuehao"
+					class="a_input"></div>
+			</div>
+			<div>
+				<label>学院</label>
+				<div><input type="text" name="academy"
+					class="a_input"></div>
+			</div>
+			<div class="button_group">
+				<input type="submit" value="确定" class="button_s">
+				<button class="button_b"
+					onclick="javascript:history.back(-1);return false;">返回</button>
+			</div>
+		</form>
+	</div>
+</block>

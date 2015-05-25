@@ -1,0 +1,57 @@
+<extend name="Public:index" />
+<block name="right_detile">
+<div class="user_manage">
+	<div class="u_m_title">评论管理(<{$count}>)</div>
+	<div class="u_m_search">
+		<form action="__APP__/Admin/Comment/findComment" method="get">
+			<div class="btn-group left-select">
+				<select class="btn btn-default dropdown-toggle"
+					data-toggle="dropdown" name="what">
+					<option value="1">姓名</option>
+					<option value="2">内容</option>
+				</select>
+			</div>
+			<div class="row right-submit">
+				<div class="col-lg-6">
+					<div class="input-group">
+						<input type="text" class="form-control" name="word">
+						<span class="input-group-btn">
+							<input class="btn btn-default" type="submit" value="查找">
+						</span>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="u_m_table">
+	<table>
+		<thead>
+			<tr>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>评论的图片id</th>
+				<th class="thcon">评论内容</th>
+				<th class="thimg">评论时间</th>
+				<th class="thopt">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<volist name="comlist" id="vo">
+			<tr>
+				<td><{$vo.com_id}></td>
+				<td><{$vo.stu_name}></td>
+				<td><{$vo.com_pid}></td>
+				<td><{$vo.com_content}></td>
+				<td><{$vo.com_addtime|date="n-j",###}></td>
+				<td>
+					<a href="__APP__/Admin/Comment/changeDetile?id=<{$vo.com_id}>">编辑</a>
+					<a href="__APP__/Admin/Comment/deleteComment?id=<{$vo.com_id}>">删除</a>
+				</td>
+			</tr>
+			</volist>
+		</tbody>
+	</table>
+	<div><{$page}></div>
+</div>
+</block>
